@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/PhysicsTest.unity
+    guid: 5ab788e41cbcdc54ca9a640348d53bc9
   m_configObjects: {}
