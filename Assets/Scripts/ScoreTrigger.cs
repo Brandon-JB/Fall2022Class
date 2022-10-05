@@ -8,12 +8,12 @@ using UnityEngine.SceneManagement;
 public class ScoreTrigger : MonoBehaviour
 {
     public TextMeshProUGUI testingText;
-    int score = 0;
+    static int score = 0;
 
     void OnTriggerEnter(Collider other)
     {
         //We check if the other collider has the tag "Amogus" on its object
-        if (other.tag == "Amogus")
+        if (other.gameObject.tag == "Amogus")
         {
             score++;
             //The same as saying score = score + 1;
